@@ -651,7 +651,7 @@ fn audio_player_system(
                 audio_state.user_answer.clear();
                 
                 for mut text in text_query.iter_mut() {
-                    **text = "Welches Zeichen haben Sie gehört ?".to_string();
+                    **text = "Welches Zeichen ?".to_string();
                 }
             }
         }
